@@ -20,3 +20,34 @@
     width: 100px;
     height: 100px;
 }
+
+.container{
+    /* border:4px solid black; */
+    margin: 100px auto;
+    width: 80%;
+
+}
+
+.card{
+
+    transition: all 0.5s ease;
+    /* border: 2px solid black; */
+
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.233);
+}
+
+.card:hover{
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.733);
+    transform: scale(1.05);
+}
+
+
+
+#loan-form .form-group:nth-child(2) 
+.input-group-text {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+
+}  
+
